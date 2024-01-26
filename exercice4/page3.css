@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:serif;
+}
+form{
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height:auto;
+}
+ul{
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    height:auto;
+    box-shadow: 0 2px 5px black ;
+}
+div + div{
+    margin-top: 20px;
+}
+
+
+@keyframes blink {
+    0%{opacity:0 ;color:aqua; }
+    50%{opacity:0.5 ; color:blueviolet;}
+    100%{opacity:1 ;color:crimson;}
+
+}
+h3{
+    text-align:center;
+    text-decoration: underline;
+}
+.blk{
+    font-size:50px;
+     text-decoration: underline;
+     margin-top:50px;
+     text-align:center;
+     animation:blink 2s  infinite;
+}
+/* li{
+
+} */
